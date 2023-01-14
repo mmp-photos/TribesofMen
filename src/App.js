@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container fluid>
+      <Row style={{height: "100vh"}}>
+        <Col id="left" sm={12} md={6} className ="order-sm-1 order-md-2">
+        </Col>
+        <Col id="right" sm={12} md={6} className ="order-sm-1 order-md-2" style={{height: "100%"}}>
+        </Col>
+      </Row>
+      <div id="primary">
+        <h1 className="sans">Coming Soon!</h1>
+        <h1>Tribes of Men</h1>
+        <h2 className="sans">An Aesthic Finder for men and male-presenting people.</h2>
+      </div>
+    </Container>
   );
 }
 

@@ -1,0 +1,60 @@
+  /* PRIMARY  STRUCTURAL STLYES */
+  /*         */
+  /* These are the styles for named ID tags for the TRIBES OF ME website.  */
+  /* They are listed by page and then alphabetically                       */
+  /*///////////////////////////////////////////////////////////////////////*/
+
+body {
+    background-color: white;
+}
+
+  /* ID TAGS */
+  /*         */
+  /* These are the styles for named ID tags for the MSM Portfolio site.  */
+  /* They are listed by page and then alphabetically                     */
+  /*/////////////////////////////////////////////////////////////////////*/
+
+  #left {
+    background-image: url("../images/flannelBlack.svg");
+    background-repeat: repeat;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+  }
+  #right {
+    background-image: url("../images/redPolkaDots.svg");
+    display: inline-block;
+    width: 50%;
+    height:100%;
+  }
+
+  #primary {
+    position: absolute;
+    top: 35px;
+    width: 45%;
+    height: 45%;
+    margin-left: 25%;
+    background-color: rgba(245, 241, 39, 0.85);
+    text-align: center;
+    border-style: dashed;
+    border-width: 9px;
+    border-color: purple;
+  }
+  h1{
+    font-family: gastromond, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5em;
+  }
+  h1.sans{
+    font-family: semplicitapro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.5em;
+  }
+  h2.sans{
+    font-family: semplicitapro, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1em;
+  }
