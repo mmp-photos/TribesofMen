@@ -14,7 +14,7 @@ function App() {
       <div id="primary">
         <h1 className="sans">Coming Soon!</h1>
         <h1>Tribes of Men</h1>
-        <h2 className="sans">An Aesthic Finder for men and male-presenting people.</h2>
+        <h2 className="sans">An Aesthic Finder for men and all masculine presenting folks.</h2>
       </div>
     </Container>
   );
