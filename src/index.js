@@ -4,12 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './assets/styles/tribal-styles.css';
+import { Auth0Provider } from '@auth0/auth0-react';
 
+const domain = 'dev-oi6n5oy6tlk87mrk.us.auth0.com';
+const clientId = 'vRSNmBVJXoAEeNVI8iEakqgEVK4WlMjT';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Auth0Provider
+      domain = {domain}
+      clientId={clientId}
+    >
+      <App />
+    </Auth0Provider>
   </React.StrictMode>
 );
 
